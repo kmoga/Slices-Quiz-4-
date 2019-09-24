@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 //            resultLabel.text = "Please enter a valid number of slices."
 //        }
     guard let slices = Double(slices.text!) else {
-    resultLabel.text = "Please elner a valid number of slices"
+    resultLabel.text = "Please enter a valid number of slices"
         return
     }
         guard let mouths = Double(mouths.text!) else {
